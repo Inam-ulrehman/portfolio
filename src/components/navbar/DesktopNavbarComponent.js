@@ -1,12 +1,10 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-const SharedNavbar = ({ path, title, icon }) => {
+const SharedNavbar = ({ path, title }) => {
   return (
     <li>
-      <NavLink to={path}>
-        {icon} {title}
-      </NavLink>
+      <NavLink to={path}>{title}</NavLink>
     </li>
   )
 }

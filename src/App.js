@@ -6,10 +6,13 @@ import {
   SharedLayout,
   LandingPage,
   ErrorPage,
-  Home,
   About,
-  Cart,
   Contact,
+  Portfolio,
+  Services,
+  WebWizard,
+  SmallBusinessBlog,
+  Support,
 } from './pages'
 
 const App = () => {
@@ -19,10 +22,13 @@ const App = () => {
         <Route path='/' element={<SharedLayout />}>
           <Route index element={<LandingPage />} />
           <Route path='*' element={<ErrorPage />} />
-          <Route path='home' element={<Home />} />
           <Route path='about' element={<About />} />
+          <Route path='Portfolio' element={<Portfolio />} />
+          <Route path='Services' element={<Services />} />
+          <Route path='WebWizard' element={<WebWizard />} />
+          <Route path='SmallBusinessBlog' element={<SmallBusinessBlog />} />
+          <Route path='Support' element={<Support />} />
           <Route path='contact' element={<Contact />} />
-          <Route path='cart' element={<Cart />} />
         </Route>
       </Routes>
       <ToastContainer />

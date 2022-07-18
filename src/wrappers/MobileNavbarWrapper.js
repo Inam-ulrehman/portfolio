@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const MobileNavbarWrapper = styled.nav`
-  @media (min-width: 768px) {
+  @media (min-width: 1120px) {
     display: none;
   }
 
@@ -16,6 +16,7 @@ const MobileNavbarWrapper = styled.nav`
   .container-header {
     display: flex;
     justify-content: space-between;
+
     .menu-icon {
       font-size: 2rem;
     }

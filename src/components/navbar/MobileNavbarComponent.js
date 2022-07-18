@@ -1,11 +1,11 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-const MobileNavbarComponent = ({ path, title, icon, values, setValues }) => {
+const MobileNavbarComponent = ({ path, title, values, setValues }) => {
   return (
     <li>
       <NavLink onClick={() => setValues(!values)} to={path}>
-        {icon} {title}
+        {title}
       </NavLink>
     </li>
   )

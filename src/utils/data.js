@@ -1,13 +1,9 @@
-import {
-  FaHome,
-  FaEnvelope,
-  FaRegAddressBook,
-  FaShoppingCart,
-} from 'react-icons/fa'
-
 export const navbarData = [
-  { id: 1, path: '/home', title: 'Home', icon: <FaHome /> },
-  { id: 2, path: '/about', title: 'About', icon: <FaEnvelope /> },
-  { id: 3, path: '/contact', title: 'Contact', icon: <FaRegAddressBook /> },
-  { id: 4, path: '/cart', title: 'Cart', icon: <FaShoppingCart /> },
+  { id: 1, path: '/about', title: 'About' },
+  { id: 2, path: '/Portfolio', title: 'Portfolio' },
+  { id: 3, path: '/Services', title: 'Services' },
+  { id: 4, path: '/WebWizard', title: 'WebWizard' },
+  { id: 5, path: '/SmallBusinessBlog', title: 'SmallBusinessBlog' },
+  { id: 6, path: '/Support', title: 'Support' },
+  { id: 7, path: '/contact', title: 'Contact' },
 ]

@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 const image =
   'https://res.cloudinary.com/inam6530/image/upload/v1658168313/Portfolio/20210803-094930-responsive-devices-vincenzos_beq2vk.png'
 
@@ -9,6 +10,9 @@ const LandingOne = () => {
       <div className='body-text'>
         <h3 className='heading-title'>We provide</h3>
         <h1 className='body-text'>Business Web Design &#38; Development </h1>
+        <Link to='/services' className='btn btn-one'>
+          Services We offer
+        </Link>
       </div>
       <div className='image-box'>
         <img src={image} alt='' />
@@ -52,6 +56,12 @@ const Wrapper = styled.div`
     }
     .body-text {
       padding-top: 2rem;
+    }
+  }
+  .btn-one {
+    transition: var(--transition);
+    :hover {
+      transform: scale(1.2);
     }
   }
 `

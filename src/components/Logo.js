@@ -1,12 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 const Logo = () => {
   return (
     <Wrapper className='logo'>
-      <h3 className='logo-heading'>
-        inam<span className='logo-span'>Web</span>Solutions
-      </h3>
+      <Link to='/'>
+        <h3 className='logo-heading'>
+          inam<span className='logo-span'>Web</span>Solutions
+        </h3>
+      </Link>
     </Wrapper>
   )
 }

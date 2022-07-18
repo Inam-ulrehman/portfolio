@@ -32,6 +32,7 @@ const Wrapper = styled.div`
   }
   .image-box {
     text-align: center;
+    padding-top: 3rem;
     img {
       max-width: 400px;
       max-height: 400px;

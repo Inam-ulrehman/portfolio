@@ -8,7 +8,9 @@ const DesktopNavbarWrapper = styled.nav`
   .nav-container {
     display: flex;
     justify-content: space-between;
-    background-color: var(--primary-1);
+    background-color: var(--white);
+    box-shadow: var(--shadow-2);
+    padding: 0rem 1rem;
   }
   .navbar {
     ul {
@@ -30,16 +32,6 @@ const DesktopNavbarWrapper = styled.nav`
       display: flex;
       gap: 1rem;
     }
-  }
-  .logo-container {
-    width: 200px;
-  }
-  .logo {
-    width: 30px;
-    height: 40px;
-    display: block;
-    margin: 0 auto;
-    margin-top: 10px;
   }
 `
 export default DesktopNavbarWrapper

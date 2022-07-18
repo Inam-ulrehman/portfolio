@@ -1,18 +1,19 @@
 import React from 'react'
 import { navbarData } from '../../utils/data'
-import logo from '../../images/logo.svg'
+
 import facebook from '../../images/facebook.svg'
 import instagram from '../../images/instagram.svg'
 import linkedin from '../../images/linkedin.svg'
 import DesktopNavbarComponent from './DesktopNavbarComponent'
 import DesktopNavbarWrapper from '../../wrappers/DesktopNavbarWrapper'
+import Logo from '../Logo'
 
 const DesktopNavbar = () => {
   return (
     <DesktopNavbarWrapper>
       <div className='nav-container'>
         <div className='logo-container'>
-          <img className='logo' src={logo} alt='' />
+          <Logo />
         </div>
 
         <div className='navbar'>

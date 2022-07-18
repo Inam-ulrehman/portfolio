@@ -2,8 +2,8 @@ import { React, useState, useRef, useEffect } from 'react'
 import { FaList } from 'react-icons/fa'
 import { navbarData } from '../../utils/data'
 import MobileNavbarComponent from './MobileNavbarComponent'
-import logo from '../../images/logo.svg'
 import MobileNavbarWrapper from '../../wrappers/MobileNavbarWrapper'
+import Logo from '../Logo'
 
 const MobileNavbar = () => {
   const [values, setValues] = useState(false)
@@ -26,7 +26,7 @@ const MobileNavbar = () => {
     <MobileNavbarWrapper>
       <div className='container'>
         <div className='container-header'>
-          <img className='logo' src={logo} alt='' />
+          <Logo />
 
           <FaList onClick={handleMenu} className='menu-icon' />
         </div>

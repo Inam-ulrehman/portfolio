@@ -4,14 +4,14 @@ const MobileNavbarWrapper = styled.nav`
   @media (min-width: 768px) {
     display: none;
   }
-  .logo {
-    width: 40px;
-  }
+
   .container {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: var(--primary-1);
+    background-color: var(--white);
+    box-shadow: var(--shadow-2);
+    padding: 0.7rem 1rem;
   }
   .container-header {
     display: flex;

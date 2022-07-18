@@ -1,20 +1,20 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
-import Footer from '../components/Footer'
+import styled from 'styled-components'
+
 import DesktopNavbar from '../components/navbar/DesktopNavbar'
 import MobileNavbar from '../components/navbar/MobileNavbar'
 
 const SharedLayout = () => {
   return (
-    <main>
+    <Wrapper>
       <DesktopNavbar />
       <MobileNavbar />
-      <section className='section'>
-        <Outlet />
-      </section>
-      <Footer />
-    </main>
+      <Outlet />
+    </Wrapper>
   )
 }
+
+const Wrapper = styled.main``
 
 export default SharedLayout

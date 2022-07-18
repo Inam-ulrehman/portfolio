@@ -1,3 +1,1 @@
-# helping cheatSheets
-
-http://www.java2s.com
+1. react icons.

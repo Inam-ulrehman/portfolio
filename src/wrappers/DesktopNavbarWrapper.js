@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const DesktopNavbarWrapper = styled.nav`
-  @media (max-width: 1120px) {
+  @media (max-width: 920px) {
     display: none;
   }
 
@@ -17,8 +17,18 @@ const DesktopNavbarWrapper = styled.nav`
     ul {
       display: flex;
       a {
-        padding: 1rem;
+        padding: 0.5rem;
         text-align: center;
+        transition: var(--transition);
+        color: var(--black);
+        font-weight: 600;
+        :hover {
+          transition: var(--transition);
+          background-color: var(--primary-1);
+        }
+      }
+      .active {
+        color: var(--primary-5);
       }
     }
   }

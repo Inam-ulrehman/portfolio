@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const MobileNavbarWrapper = styled.nav`
-  @media (min-width: 1120px) {
+  @media (min-width: 920px) {
     display: none;
   }
 
@@ -28,7 +28,12 @@ const MobileNavbarWrapper = styled.nav`
     background-color: var(--white);
     overflow: hidden;
     a {
+      color: var(--black);
+      font-weight: 600;
       display: block;
+    }
+    .active {
+      color: var(--primary-5);
     }
   }
 `

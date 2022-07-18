@@ -28,6 +28,8 @@ const Wrapper = styled.div`
       max-width: var(--fixed-width);
       margin: 0 auto;
       line-height: 1;
+      margin-top: 5rem;
+      margin-bottom: 3rem;
     }
   }
   .image-box {

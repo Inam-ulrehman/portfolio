@@ -48,6 +48,9 @@ const Wrapper = styled.div`
         margin-top: 2rem;
       }
     }
+    .body-text {
+      padding-top: 2rem;
+    }
   }
 `
 

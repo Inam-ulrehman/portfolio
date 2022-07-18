@@ -11,7 +11,7 @@ const LandingOne = () => {
         <h3 className='heading-title'>We provide</h3>
         <h1 className='body-text'>Business Web Design &#38; Development </h1>
         <Link to='/services' className='btn btn-one'>
-          Services We offer
+          My Services
         </Link>
       </div>
       <div className='image-box'>

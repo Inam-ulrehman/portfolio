@@ -74,7 +74,7 @@ export const myWork = [
       'https://res.cloudinary.com/inam6530/image/upload/v1658236732/Portfolio/image1_xy2xeh.png',
   },
   {
-    id: 1,
+    id: 5,
     path: '/about',
     title: 'Food Site',
     image:

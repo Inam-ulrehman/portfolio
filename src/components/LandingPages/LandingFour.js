@@ -49,7 +49,7 @@ function LandingFour() {
           }
 
           return (
-            <Link className='container-box' to={path}>
+            <Link key={id} className='container-box' to={path}>
               <article
                 style={{
                   backgroundImage: `url(${image})`,
@@ -58,7 +58,6 @@ function LandingFour() {
                   backgroundSize: `cover`,
                 }}
                 className={position}
-                key={id}
               >
                 <h3 className='title'>{title}</h3>
                 <h5 className='hero-text'>launch website</h5>
@@ -203,7 +202,6 @@ const Wrapper = styled.section`
   }
   .title {
     background-color: var(--grey-05);
-    opacity: 0.8;
   }
 `
 

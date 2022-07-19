@@ -38,13 +38,13 @@ const Wrapper = styled.article`
 
     .design {
       height: 5px;
-      width: 140px;
+      width: 10px;
       background-color: var(--primary-5);
       transition: 0.7s ease-in-out all;
     }
     :hover {
       .design {
-        width: 250px;
+        width: 210px;
       }
       h2 {
         color: var(--primary-5);

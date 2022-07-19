@@ -27,11 +27,11 @@ function LandingFour() {
   }, [index])
 
   return (
-    <Wrapper className='section'>
+    <Wrapper className='section '>
       <div className='title'>
-        <h3>
-          Some of our <span>feature work</span>
-        </h3>
+        <h4>
+          Some of our <span className='section-style'>feature work</span>
+        </h4>
       </div>
       <div className='section-center'>
         {people.map((person, personIndex) => {
@@ -194,6 +194,12 @@ const Wrapper = styled.section`
     border: 5px;
     border-radius: var(--radius);
     opacity: 0.7;
+    :hover {
+      opacity: 1;
+    }
+  }
+  .section-style {
+    color: var(--primary-5);
   }
 `
 

@@ -34,6 +34,10 @@ const Wrapper = styled.article`
 
   .image {
     overflow: hidden;
+    text-align: center;
+    height: 400px;
+    max-width: 500px;
+    margin: 0 auto;
     img {
       max-height: 400px;
       max-width: 100%;
@@ -44,11 +48,6 @@ const Wrapper = styled.article`
   @media (min-width: 920px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    .image {
-      img {
-        margin-top: 4rem;
-      }
-    }
   }
 `
 

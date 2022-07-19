@@ -47,30 +47,35 @@ export const landingPageTwo = [
 export const myWork = [
   {
     id: 1,
+    path: '/about',
     title: 'Social Media',
     image:
       'https://res.cloudinary.com/inam6530/image/upload/v1658236736/Portfolio/blog_kibq4q.jpg',
   },
   {
     id: 2,
+    path: '/about',
     title: 'Couple Celebrations',
     image:
       'https://res.cloudinary.com/inam6530/image/upload/v1658236733/Portfolio/marriage_ojux2p.jpg',
   },
   {
     id: 3,
+    path: '/about',
     title: 'Travel sites',
     image:
       'https://res.cloudinary.com/inam6530/image/upload/v1658236733/Portfolio/image2_gn9edg.png',
   },
   {
     id: 4,
+    path: '/about',
     title: 'e-Commerce',
     image:
       'https://res.cloudinary.com/inam6530/image/upload/v1658236732/Portfolio/image1_xy2xeh.png',
   },
   {
     id: 1,
+    path: '/about',
     title: 'Food Site',
     image:
       'https://res.cloudinary.com/inam6530/image/upload/v1658236736/Portfolio/food_tkxqcw.jpg',

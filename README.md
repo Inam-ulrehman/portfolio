@@ -3,3 +3,4 @@
 3. update pages you are going to show in menu. React Router 6.
 4. fix data with menu input for mapping and also hover on menu css.
 5. button on Logo so it take me home.
+6. work on landing page. one by one.

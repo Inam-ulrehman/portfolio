@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import LandingFour from '../components/LandingPages/LandingFour'
+import LandingFourFullScreen from '../components/LandingPages/LandingFourFullScreen'
 import LandingOne from '../components/LandingPages/LandingOne'
 import LandingThree from '../components/LandingPages/LandingThree'
 import LandingTwo from '../components/LandingPages/LandingTwo'
@@ -14,6 +15,7 @@ const LandingPage = () => {
       <LandingTwoFullScreen />
       <LandingThree />
       <LandingFour />
+      <LandingFourFullScreen />
     </Wrapper>
   )
 }

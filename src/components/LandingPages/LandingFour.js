@@ -61,7 +61,7 @@ function LandingFour() {
                 key={id}
               >
                 <div className='design'></div>
-                <h4 className='hero-text'>{title}</h4>
+                <h5 className='hero-text'>{title}</h5>
               </article>
             </Link>
           )
@@ -190,8 +190,10 @@ const Wrapper = styled.section`
     transform: translate(-50%, -50%);
     color: white;
     background-color: var(--primary-5);
-    padding: 1rem;
-    border: 5px double var(--white);
+    padding: 10px;
+    border: 5px;
+    border-radius: var(--radius);
+    opacity: 0.7;
   }
 `
 

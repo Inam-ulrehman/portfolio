@@ -12,6 +12,7 @@ const MobileNavbarWrapper = styled.nav`
     background-color: var(--white);
     box-shadow: var(--shadow-2);
     padding: 0.7rem 1rem;
+    z-index: 1;
   }
   .container-header {
     display: flex;

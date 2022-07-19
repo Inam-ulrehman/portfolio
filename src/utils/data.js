@@ -43,3 +43,36 @@ export const landingPageTwo = [
       'The most beautiful and good looking sites, our easy-to-use Content Management System.',
   },
 ]
+
+export const myWork = [
+  {
+    id: 1,
+    title: 'Social Media',
+    image:
+      'https://res.cloudinary.com/inam6530/image/upload/v1658236736/Portfolio/blog_kibq4q.jpg',
+  },
+  {
+    id: 2,
+    title: 'Couple Celebrations',
+    image:
+      'https://res.cloudinary.com/inam6530/image/upload/v1658236733/Portfolio/marriage_ojux2p.jpg',
+  },
+  {
+    id: 3,
+    title: 'Travel sites',
+    image:
+      'https://res.cloudinary.com/inam6530/image/upload/v1658236733/Portfolio/image2_gn9edg.png',
+  },
+  {
+    id: 4,
+    title: 'e-Commerce',
+    image:
+      'https://res.cloudinary.com/inam6530/image/upload/v1658236732/Portfolio/image1_xy2xeh.png',
+  },
+  {
+    id: 1,
+    title: 'Food Site',
+    image:
+      'https://res.cloudinary.com/inam6530/image/upload/v1658236736/Portfolio/food_tkxqcw.jpg',
+  },
+]

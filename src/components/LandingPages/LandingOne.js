@@ -40,8 +40,10 @@ const Wrapper = styled.div`
     text-align: center;
     padding-top: 3rem;
     img {
-      max-width: 400px;
+      max-width: 100%;
       max-height: 400px;
+      display: block;
+      object-fit: cover;
     }
   }
   @media (min-width: 920px) {

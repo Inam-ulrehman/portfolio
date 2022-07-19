@@ -60,8 +60,8 @@ function LandingFour() {
                 className={position}
                 key={id}
               >
-                <div className='design'></div>
-                <h5 className='hero-text'>{title}</h5>
+                <h3 className='title'>{title}</h3>
+                <h5 className='hero-text'>launch website</h5>
               </article>
             </Link>
           )
@@ -200,6 +200,10 @@ const Wrapper = styled.section`
   }
   .section-style {
     color: var(--primary-5);
+  }
+  .title {
+    background-color: var(--grey-05);
+    opacity: 0.8;
   }
 `
 

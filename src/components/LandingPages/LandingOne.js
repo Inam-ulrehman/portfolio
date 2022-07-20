@@ -7,7 +7,7 @@ const video =
   'https://res.cloudinary.com/inam6530/video/upload/v1658332184/Portfolio/banner.mp4'
 const LandingOne = () => {
   return (
-    <Wrapper>
+    <>
       <div className='App'>
         <div className='video'>
           <video
@@ -20,17 +20,19 @@ const LandingOne = () => {
           ></video>
         </div>
       </div>
-      <div className='body-text'>
-        <h3 className='heading-title'>We provide</h3>
-        <h1 className='body-text'>Business Web Design &#38; Development </h1>
-        <Link to='/services' className='btn btn-one'>
-          My Services
-        </Link>
-      </div>
-      <div className='image-box'>
-        <img src={image} alt='' />
-      </div>
-    </Wrapper>
+      <Wrapper>
+        <div className='body-text'>
+          <h3 className='heading-title'>We provide</h3>
+          <h1 className='body-text'>Business Web Design &#38; Development </h1>
+          <Link to='/services' className='btn btn-one'>
+            My Services
+          </Link>
+        </div>
+        <div className='image-box'>
+          <img src={image} alt='' />
+        </div>
+      </Wrapper>
+    </>
   )
 }
 
@@ -79,7 +81,7 @@ const Wrapper = styled.div`
       transform: scale(1.2);
     }
   }
-  @media (min-width: 678px) {
+  @media (max-width: 920px) {
     .App {
       display: none;
     }

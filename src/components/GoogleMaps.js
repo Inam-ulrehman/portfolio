@@ -11,7 +11,7 @@ export default function Home() {
 }
 
 function Map() {
-  const center = useMemo(() => ({ lat: 44, lng: -80 }), [])
+  const center = useMemo(() => ({ lat: 43.4450848, lng: -80.48596 }), [])
 
   return (
     <GoogleMap zoom={10} center={center} mapContainerClassName='map-container'>

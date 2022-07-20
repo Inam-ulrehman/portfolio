@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Footer from '../components/Footer/Footer'
 import GoogleMaps from '../components/GoogleMaps'
 import LandingFive from '../components/LandingPages/LandingFive'
 import LandingFour from '../components/LandingPages/LandingFour'
@@ -20,6 +21,7 @@ const LandingPage = () => {
       <LandingFourFullScreen />
       <LandingFive />
       <GoogleMaps />
+      <Footer />
     </Wrapper>
   )
 }

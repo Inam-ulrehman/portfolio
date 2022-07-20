@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 const url =
@@ -36,17 +37,19 @@ const BlogOne = () => {
             online store up and running correctly from the start.
           </p>
         </div>
-        <div className='cart'>
-          <h3>Contributor</h3>
-          <img src={inam} alt='' />
-          <p>
-            Name: <span>Inam ul Rehman</span>
-          </p>
-          <div className='title-underline'></div>
-          <p>
-            Total post: <span>12</span>
-          </p>
-        </div>
+        <Link to='/about'>
+          <div className='cart'>
+            <h3>Contributor</h3>
+            <img src={inam} alt='' />
+            <p>
+              Name: <span>Inam ul Rehman</span>
+            </p>
+            <div className='title-underline'></div>
+            <p>
+              Total post: <span>12</span>
+            </p>
+          </div>
+        </Link>
       </div>
       <hr />
     </Wrapper>

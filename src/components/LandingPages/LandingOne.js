@@ -8,7 +8,7 @@ const video =
 const LandingOne = () => {
   return (
     <>
-      <div className='App'>
+      <WrapperBanner className='App'>
         <div className='video'>
           <video
             autoPlay
@@ -19,7 +19,7 @@ const LandingOne = () => {
             height='100%'
           ></video>
         </div>
-      </div>
+      </WrapperBanner>
       <Wrapper>
         <div className='body-text'>
           <h3 className='heading-title'>We provide</h3>
@@ -35,6 +35,11 @@ const LandingOne = () => {
     </>
   )
 }
+const WrapperBanner = styled.div`
+  @media (max-width: 920px) {
+    display: none;
+  }
+`
 
 const Wrapper = styled.div`
   .body-text {
@@ -79,11 +84,6 @@ const Wrapper = styled.div`
     transition: var(--transition);
     :hover {
       transform: scale(1.2);
-    }
-  }
-  @media (max-width: 920px) {
-    .App {
-      display: none;
     }
   }
 `

@@ -3,10 +3,23 @@ import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 const image =
   'https://res.cloudinary.com/inam6530/image/upload/v1658168313/Portfolio/20210803-094930-responsive-devices-vincenzos_beq2vk.png'
-
+const video =
+  'https://res.cloudinary.com/inam6530/video/upload/v1658332184/Portfolio/banner.mp4'
 const LandingOne = () => {
   return (
     <Wrapper>
+      <div className='App'>
+        <div className='video'>
+          <video
+            autoPlay
+            loop
+            muted
+            src={video}
+            width='100%'
+            height='100%'
+          ></video>
+        </div>
+      </div>
       <div className='body-text'>
         <h3 className='heading-title'>We provide</h3>
         <h1 className='body-text'>Business Web Design &#38; Development </h1>
@@ -64,6 +77,11 @@ const Wrapper = styled.div`
     transition: var(--transition);
     :hover {
       transform: scale(1.2);
+    }
+  }
+  @media (min-width: 678px) {
+    .App {
+      display: none;
     }
   }
 `

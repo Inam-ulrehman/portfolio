@@ -25,9 +25,6 @@ const BlogTwo = () => {
     return
   }
 
-  // handle click =
-
-  console.log(blog.products)
   useEffect(() => {
     fetchData()
   }, [])

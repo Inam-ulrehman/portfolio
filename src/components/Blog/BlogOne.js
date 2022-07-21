@@ -10,6 +10,14 @@ const inam =
 const BlogOne = () => {
   return (
     <Wrapper>
+      <button
+        className='btn'
+        type='button'
+        style={{ position: 'fixed', bottom: '1rem', right: '1.5rem' }}
+        onClick={() => window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })}
+      >
+        Scroll up
+      </button>
       <div className='box'>
         <div className='box-1 hide'></div>
         <div className='box-2'>
@@ -51,6 +59,7 @@ const BlogOne = () => {
           </div>
         </Link>
       </div>
+
       <hr />
     </Wrapper>
   )

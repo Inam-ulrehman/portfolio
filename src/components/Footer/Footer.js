@@ -12,7 +12,7 @@ const Footer = () => {
       <div className='footer-box'>
         <FaRegCopyright />
         Copyright {new Date().getFullYear()} INAM Web Solutions. All Rights
-        Reserved. Web Design and Content Management by REM Web Solutions.
+        Reserved. Web Design and Content Management by INAM Web Solutions.
       </div>
     </Wrapper>
   )

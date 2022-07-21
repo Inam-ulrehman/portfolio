@@ -60,7 +60,7 @@ function LandingFour() {
                 className={position}
               >
                 <h3 className='title'>{title}</h3>
-                <h5 className='hero-text'>launch website</h5>
+                <h5 className='hero-text'>Coming Soon</h5>
               </article>
             </Link>
           )

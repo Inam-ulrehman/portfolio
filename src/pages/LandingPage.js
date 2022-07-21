@@ -27,7 +27,6 @@ const LandingPage = () => {
 }
 
 const Wrapper = styled.main`
-  height: 400vh;
   @media (max-width: 920px) {
     margin-top: 4rem;
   }

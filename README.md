@@ -10,6 +10,10 @@
 
 # Node.js build in function Fetch used here for api call
 
+8. Setting up Contact page .
+
+# Redux going to use for this axios post request.
+
 # =========== bank end ============
 
 1. Server is uploaded on Heroku node.js + express ....

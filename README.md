@@ -8,6 +8,8 @@
 6. work on landing page. one by one. Google map API use along with nmp package.
 7. Setting up blog page after completing upload of my backEnd server on Heroku.
 
+# Node.js build in function Fetch used here for api call
+
 # =========== bank end ============
 
 1. Server is uploaded on Heroku node.js + express ....

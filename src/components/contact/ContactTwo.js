@@ -5,6 +5,7 @@ import {
   contactThunk,
   getContactData,
 } from '../../features/contact/contactSlice'
+import Logo from '../Logo'
 
 const ContactTwo = () => {
   const { contact } = useSelector((state) => state)
@@ -33,6 +34,7 @@ const ContactTwo = () => {
   return (
     <div>
       <form onSubmit={handleSubmit} className='form'>
+        <Logo />
         <div>
           {/* name input */}
           <label htmlFor='name' className='form-label'>

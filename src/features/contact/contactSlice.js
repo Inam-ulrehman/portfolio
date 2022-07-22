@@ -41,6 +41,10 @@ const userSlice = createSlice({
     [contactThunk.fulfilled]: (state, { payload }) => {
       state.isLoading = false
       toast.success(`Dear ${payload}, Team Member contact you shortly.`)
+      state.name = ''
+      state.email = ''
+      state.phone = ''
+      state.comments = ''
     },
     [contactThunk.rejected]: (state, { payload }) => {
       state.isLoading = true

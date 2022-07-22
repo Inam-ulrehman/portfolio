@@ -8,9 +8,7 @@ import {
   ErrorPage,
   About,
   Contact,
-  Portfolio,
   Services,
-  WebWizard,
   SmallBusinessBlog,
   Support,
 } from './pages'
@@ -23,9 +21,9 @@ const App = () => {
           <Route index element={<LandingPage />} />
           <Route path='*' element={<ErrorPage />} />
           <Route path='about' element={<About />} />
-          <Route path='Portfolio' element={<Portfolio />} />
+
           <Route path='Services' element={<Services />} />
-          <Route path='WebWizard' element={<WebWizard />} />
+
           <Route path='SmallBusinessBlog' element={<SmallBusinessBlog />} />
           <Route path='Support' element={<Support />} />
           <Route path='contact' element={<Contact />} />

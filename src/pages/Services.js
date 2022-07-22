@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <div>
       <LandingFourFullScreen />
-
+      <LandingFour />
       <Footer />
     </div>
   )

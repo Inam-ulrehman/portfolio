@@ -1,16 +1,19 @@
 import React from 'react'
+import styled from 'styled-components'
 import Footer from '../components/Footer/Footer'
 import LandingFour from '../components/LandingPages/LandingFour'
 import LandingFourFullScreen from '../components/LandingPages/LandingFourFullScreen'
 
 const Services = () => {
   return (
-    <div>
+    <Wrapper>
       <LandingFourFullScreen />
       <LandingFour />
       <Footer />
-    </div>
+    </Wrapper>
   )
 }
-
+const Wrapper = styled.div`
+  padding-top: 1.5rem;
+`
 export default Services

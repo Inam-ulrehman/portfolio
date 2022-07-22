@@ -30,7 +30,7 @@ function LandingFour() {
     <Wrapper className='section '>
       <div className='title'>
         <h4>
-          Some of our <span className='section-style'>feature work</span>
+          services <span className='section-style'> / we offer</span>
         </h4>
       </div>
       <div className='section-center'>
@@ -60,7 +60,7 @@ function LandingFour() {
                 className={position}
               >
                 <h3 className='title'>{title}</h3>
-                <h5 className='hero-text'>Coming Soon</h5>
+                <h5 className='hero-text'>contact us</h5>
               </article>
             </Link>
           )

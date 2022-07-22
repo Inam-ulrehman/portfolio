@@ -14,7 +14,7 @@ export const navbarData = [
 export const landingPageTwo = [
   {
     id: 1,
-    path: '/portfolio',
+    path: '/SmallBusinessBlog',
     title: 'RESULTS',
     titleTwo: 'Exceptional Responsive web Design',
     paragraph:
@@ -22,14 +22,14 @@ export const landingPageTwo = [
   },
   {
     id: 2,
-    path: '/support',
+    path: '/Support',
     title: 'SUPPORT',
     titleTwo: 'Dedicated Support Staff',
     paragraph: `Your success comes first. We'll support you from conceptualization to website launch and beyond.`,
   },
   {
     id: 3,
-    path: 'WebWizard',
+    path: 'SmallBusinessBlog',
     title: 'TOOLS',
     titleTwo: 'Exceptional Responsive web Design',
     paragraph:

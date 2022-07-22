@@ -14,10 +14,18 @@
 
 # Redux going to use for this axios post request.
 
-# =========== bank end ============
+# =========== back end ============
 
 1. Server is uploaded on Heroku node.js + express ....
 
 end point : https://inamportfolioproject.herokuapp.com/api/v1
 
-route for blog page = /products/static
+router for blog page = /products/static
+
+<!-- ================ -->
+
+2. Contact form end point is .
+
+end point : https://inamportfolioproject.herokuapp.com/api/v1
+
+/contact

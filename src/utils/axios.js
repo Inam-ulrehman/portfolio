@@ -1,7 +1,7 @@
-// import axios from 'axios'
+import axios from 'axios'
 
-// // === UserData Root Url ===//
+// === UserData Root Url ===//
 
-// export const customFetchUser = axios.create({
-//   baseURL: 'https://jobify-prod.herokuapp.com/api/v1/toolkit',
-// })
+export const customFetchContact = axios.create({
+  baseURL: 'https://inamportfolioproject.herokuapp.com/api/v1',
+})

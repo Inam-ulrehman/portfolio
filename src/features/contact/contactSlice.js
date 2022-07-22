@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
-// import axios from 'axios'
+import axios from 'axios'
 import { toast } from 'react-toastify'
 
 const initialState = {
@@ -14,12 +14,13 @@ export const contactThunk = createAsyncThunk(
   'contact/contactThunk',
   async (contact, thunkApi) => {
     try {
-      // will make post route ....
-      // const url = 'waiting for endpoint'
-      // const resp = await axios.post(url, contact)
-      console.log(contact)
+      const result = contact.contact
+      const url = 'https://inamportfolioproject.herokuapp.com/api/v1/contacts'
+      const resp = await axios.post(url, result)
+
+      return resp.data.contactName
     } catch (error) {
-      console.log(error.response)
+      return thunkApi.rejectWithValue(error.response.data)
     }
   }
 )
@@ -31,7 +32,6 @@ const userSlice = createSlice({
     getContactData: (state, { payload }) => {
       const { name, value } = payload
       state[name] = value
-      console.log(payload)
     },
   },
   extraReducers: {
@@ -40,11 +40,11 @@ const userSlice = createSlice({
     },
     [contactThunk.fulfilled]: (state, { payload }) => {
       state.isLoading = false
-      toast.success('success')
+      toast.success(`Dear ${payload}, Team Member contact you shortly.`)
     },
-    [contactThunk.rejected]: (state) => {
+    [contactThunk.rejected]: (state, { payload }) => {
       state.isLoading = true
-      toast.success('error')
+      toast.error(payload)
     },
   },
 })

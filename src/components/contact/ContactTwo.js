@@ -20,7 +20,6 @@ const ContactTwo = () => {
       return toast.warning('please fill all the fields in form.')
     } else {
       dispatch(contactThunk({ contact }))
-      toast.success('Team member will in touch Soon...')
     }
   }
 

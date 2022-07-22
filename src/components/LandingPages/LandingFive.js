@@ -41,7 +41,7 @@ const LandingFive = () => {
           </div>
         </div>
         <div className='blog-btn'>
-          <Link to='/blog' className='btn btn-hipster'>
+          <Link to='/SmallBusinessBlog' className='btn btn-hipster'>
             Read all Blogs
           </Link>
         </div>

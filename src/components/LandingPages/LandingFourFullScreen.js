@@ -7,7 +7,7 @@ const LandingFourFullScreen = () => {
     <Wrapper>
       <div className='title style-Four'>
         <h4>
-          services <span className='section-style'> / we offer</span>
+          Some of our <span className='section-style'>feature work</span>
         </h4>
       </div>
       <div className='layout-one'>
@@ -27,7 +27,7 @@ const LandingFourFullScreen = () => {
                 <div className='styling'></div>
                 <h3 className='title'>{title}</h3>
                 <Link to={path}>
-                  <h5 className='hero-text'>contact us</h5>
+                  <h5 className='hero-text'>comming</h5>
                 </Link>
               </article>
             )
@@ -51,7 +51,7 @@ const LandingFourFullScreen = () => {
                 <div className='styling'></div>
                 <h3 className='title'>{title}</h3>
                 <Link to={path}>
-                  <h5 className='hero-text'>contact us</h5>
+                  <h5 className='hero-text'>launch website</h5>
                 </Link>
               </article>
             )

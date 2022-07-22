@@ -1,9 +1,9 @@
 export const navbarData = [
   { id: 1, path: '/', title: 'Home' },
   { id: 2, path: '/about', title: 'About' },
-  { id: 3, path: '/Portfolio', title: 'Portfolio' },
+
   { id: 4, path: '/Services', title: 'Services' },
-  { id: 5, path: '/WebWizard', title: 'WebWizard' },
+
   { id: 6, path: '/SmallBusinessBlog', title: 'SmallBusinessBlog' },
   { id: 7, path: '/Support', title: 'Support' },
   { id: 8, path: '/contact', title: 'Contact' },

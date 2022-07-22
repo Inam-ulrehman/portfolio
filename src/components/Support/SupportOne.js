@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 const url =
-  'https://res.cloudinary.com/inam6530/image/upload/v1658338983/team_a4440w.png'
+  'https://res.cloudinary.com/inam6530/image/upload/v1658513768/Blue_Customer_Support_Online_Service_Illustration_Instagram_Post.png_wvzfa4.png'
 const inam =
   'https://res.cloudinary.com/inam6530/image/upload/v1658341599/inam_gmuuw3.png'
 
@@ -28,9 +28,11 @@ const BlogOne = () => {
           </h5>
         </div>
       </div>
-      <div className='img-holder'>
-        <img src={url} alt='' />
-      </div>
+      <Link to='/contact'>
+        <div className='img-holder'>
+          <img src={url} alt='' />
+        </div>
+      </Link>
       <div className='box-two'>
         <div>
           <h4>
@@ -65,10 +67,19 @@ const BlogOne = () => {
 
 const Wrapper = styled.section`
   .img-holder {
-    height: auto;
+    max-height: 400px;
+    max-width: 400px;
     overflow: hidden;
+    margin: 0 auto;
+    transition: var(--transition);
+    box-shadow: var(--shadow-2);
+    :hover {
+      box-shadow: var(--shadow-4);
+      cursor: pointer;
+    }
     img {
-      width: 100%;
+      max-width: 100%;
+      max-height: 400px;
     }
   }
   .box-two {

@@ -5,9 +5,8 @@ import Footer from '../Footer/Footer'
 import facebook from '../../images/facebook.svg'
 import instagram from '../../images/instagram.svg'
 import linkedin from '../../images/linkedin.svg'
+import url from '../../images/Inspiration.svg'
 
-const url =
-  'https://res.cloudinary.com/inam6530/image/upload/v1658338983/team_a4440w.png'
 const inam =
   'https://res.cloudinary.com/inam6530/image/upload/v1658341599/inam_gmuuw3.png'
 

@@ -3,7 +3,7 @@ import { navbarData } from '../../utils/data'
 import styled from 'styled-components'
 import { NavLink } from 'react-router-dom'
 import Logo from '../Logo'
-
+import github from '../../images/github.svg'
 import facebook from '../../images/facebook.svg'
 import instagram from '../../images/instagram.svg'
 import linkedin from '../../images/linkedin.svg'
@@ -38,6 +38,15 @@ const FooterPageOne = () => {
           <li>
             <a href='https://linkedin.com' target='_blank' rel='noreferrer'>
               <img className='icon' src={linkedin} alt='' />
+            </a>
+          </li>
+          <li>
+            <a
+              href='https://github.com/Inam-ulrehman'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img className='icon' src={github} alt='' />
             </a>
           </li>
         </ul>

@@ -6,6 +6,7 @@ import facebook from '../../images/facebook.svg'
 import instagram from '../../images/instagram.svg'
 import linkedin from '../../images/linkedin.svg'
 import url from '../../images/Inspiration.svg'
+import github from '../../images/github.svg'
 
 const inam =
   'https://res.cloudinary.com/inam6530/image/upload/v1658341599/inam_gmuuw3.png'
@@ -93,6 +94,15 @@ const BlogOne = () => {
                     rel='noreferrer'
                   >
                     <img className='icon' src={linkedin} alt='' />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href='https://linkedin.com'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <img className='icon' src={github} alt='' />
                   </a>
                 </li>
               </ul>

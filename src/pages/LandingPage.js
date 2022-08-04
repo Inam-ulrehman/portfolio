@@ -1,4 +1,4 @@
-import React from 'react'
+import { React, useEffect } from 'react'
 import styled from 'styled-components'
 import Footer from '../components/Footer/Footer'
 import GoogleMaps from '../components/GoogleMaps'
@@ -11,6 +11,9 @@ import LandingTwo from '../components/LandingPages/LandingTwo'
 import LandingTwoFullScreen from '../components/LandingPages/LandingTwoFullScreen'
 
 const LandingPage = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
+  }, [])
   return (
     <Wrapper>
       <LandingOne />

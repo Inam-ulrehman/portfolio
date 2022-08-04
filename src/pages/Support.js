@@ -1,4 +1,4 @@
-import React from 'react'
+import { React, useEffect } from 'react'
 import styled from 'styled-components'
 import Footer from '../components/Footer/Footer'
 import SupportOne from '../components/Support/SupportOne'
@@ -6,6 +6,9 @@ import SupportTwo from '../components/Support/SupportTwo'
 import { emailSupport } from '../utils/data'
 
 const Support = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
+  }, [])
   return (
     <Wrapper>
       <SupportOne />

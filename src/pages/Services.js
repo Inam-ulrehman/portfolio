@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Footer from '../components/Footer/Footer'
 import LandingFour from '../components/LandingPages/LandingFour'
 import LandingFourFullScreen from '../components/LandingPages/LandingFourFullScreen'
+import MyWork from '../components/MyWork'
 
 const Services = () => {
   useEffect(() => {
@@ -10,6 +11,7 @@ const Services = () => {
   }, [])
   return (
     <Wrapper>
+      <MyWork />
       <LandingFourFullScreen />
       <LandingFour />
       <Footer />

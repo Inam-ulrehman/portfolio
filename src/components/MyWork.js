@@ -13,6 +13,20 @@ const MyWork = () => {
       </p>
       <div className='img-holder'>
         <a
+          href='https://burgerqueenbyinam.netlify.app/'
+          target='_blank'
+          rel='noreferrer'
+        >
+          <p className='hero-text'>launch site</p>
+
+          <img
+            src='https://firebasestorage.googleapis.com/v0/b/burger-queen-6b0d2.appspot.com/o/computer.png?alt=media&token=0210f342-e313-4770-a850-a5be195f710d'
+            alt=''
+          />
+        </a>
+      </div>
+      <div className='img-holder'>
+        <a
           href='https://saniaoptical.netlify.app/'
           target='_blank'
           rel='noreferrer'
@@ -37,6 +51,7 @@ const Wrapper = styled.div`
     display: grid;
     place-items: center;
     position: relative;
+    margin: 1rem;
 
     p {
       background: var(--primary-5);
@@ -50,6 +65,7 @@ const Wrapper = styled.div`
       width: 300px;
       box-shadow: var(--shadow-2);
       transition: var(--transition);
+      object-fit: cover;
       :hover {
         box-shadow: var(--shadow-4);
       }

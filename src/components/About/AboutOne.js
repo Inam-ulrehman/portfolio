@@ -51,64 +51,51 @@ const BlogOne = () => {
             of their competition.
           </p>
         </div>
-        <Link to='/about'>
-          <div className='cart'>
-            <h3>Web Developer</h3>
-            <img src={inam} alt='' />
-            <p>
-              Name: <span>Inam ul Rehman</span>
-            </p>
-            <p>
-              Phone: <span>4165606790</span>
-            </p>
-            <div
-              className='title-underline'
-              style={{ marginTop: '1rem' }}
-            ></div>
-            {/* Social icons in cart */}
-            <div className='social-icons'>
-              <h4 className='title'>SOCIAL MEDIA</h4>
-              <ul>
-                <li>
-                  <a
-                    href='https://facebook.com'
-                    target='_blank'
-                    rel='noreferrer'
-                  >
-                    <img className='icon' src={facebook} alt='' />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href='https://instagram.com'
-                    target='_blank'
-                    rel='noreferrer'
-                  >
-                    <img className='icon' src={instagram} alt='' />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href='https://linkedin.com'
-                    target='_blank'
-                    rel='noreferrer'
-                  >
-                    <img className='icon' src={linkedin} alt='' />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href='https://linkedin.com'
-                    target='_blank'
-                    rel='noreferrer'
-                  >
-                    <img className='icon' src={github} alt='' />
-                  </a>
-                </li>
-              </ul>
-            </div>
+        <div className='cart'>
+          <h3>Web Developer</h3>
+          <img src={inam} alt='' />
+          <p>
+            Name: <span>Inam ul Rehman</span>
+          </p>
+          <p>
+            Phone: <span>4165606790</span>
+          </p>
+          <div className='title-underline' style={{ marginTop: '1rem' }}></div>
+          {/* Social icons in cart */}
+          <div className='social-icons'>
+            <h4 className='title'>SOCIAL MEDIA</h4>
+            <ul>
+              <li>
+                <a href='https://facebook.com' target='_blank' rel='noreferrer'>
+                  <img className='icon' src={facebook} alt='' />
+                </a>
+              </li>
+              <li>
+                <a
+                  href='https://instagram.com'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <img className='icon' src={instagram} alt='' />
+                </a>
+              </li>
+              <li>
+                <a href='https://linkedin.com' target='_blank' rel='noreferrer'>
+                  <img className='icon' src={linkedin} alt='' />
+                </a>
+              </li>
+              <li>
+                <a
+                  href='https://github.com/Inam-ulrehman'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <img className='icon' src={github} alt='' />
+                </a>
+              </li>
+            </ul>
           </div>
-        </Link>
+        </div>
       </div>
 
       <hr />

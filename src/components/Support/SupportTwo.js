@@ -46,8 +46,10 @@ const Wrapper = styled.div`
     background: transparent;
     border: transparent;
     color: var(--primary-5);
-
     padding: 1rem;
+    :hover {
+      cursor: pointer;
+    }
   }
 `
 export default SupportTwo

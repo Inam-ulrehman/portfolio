@@ -1,11 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
+import InamCard from '../Card/InamCard'
 
 const url =
   'https://res.cloudinary.com/inam6530/image/upload/v1658338983/team_a4440w.png'
-const inam =
-  'https://res.cloudinary.com/inam6530/image/upload/v1658341599/inam_gmuuw3.png'
 
 const BlogOne = () => {
   return (
@@ -46,17 +45,7 @@ const BlogOne = () => {
           </p>
         </div>
         <Link to='/about'>
-          <div className='cart'>
-            <h3>Contributor</h3>
-            <img src={inam} alt='' />
-            <p>
-              Name: <span>Inam ul Rehman</span>
-            </p>
-            <div className='title-underline'></div>
-            <p>
-              Total post: <span>12</span>
-            </p>
-          </div>
+          <InamCard />
         </Link>
       </div>
 

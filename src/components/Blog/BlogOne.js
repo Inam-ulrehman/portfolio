@@ -55,6 +55,7 @@ const BlogOne = () => {
 }
 
 const Wrapper = styled.section`
+  padding: 1rem;
   .img-holder {
     height: auto;
     overflow: hidden;

@@ -21,17 +21,8 @@ const BlogOne = () => {
         <div className='box-1 hide'></div>
         <div className='box-2'>
           <h1 className='box-1-text'>Business Website Support</h1>
-          <h5>
-            Your business success is the main focus of your Customer Success
-            Team
-          </h5>
         </div>
       </div>
-      <Link to='/contact'>
-        <div className='img-holder'>
-          <img src={url} alt='' />
-        </div>
-      </Link>
       <div className='box-two'>
         <div>
           <h4>
@@ -49,39 +40,15 @@ const BlogOne = () => {
         </div>
         <InamCard />
       </div>
-
-      <hr />
     </Wrapper>
   )
 }
 
 const Wrapper = styled.section`
-  .img-holder {
-    max-height: 400px;
-    max-width: 400px;
-    overflow: hidden;
-    margin: 0 auto;
-    transition: var(--transition);
-    box-shadow: var(--shadow-2);
-    :hover {
-      box-shadow: var(--shadow-4);
-      cursor: pointer;
-    }
-    img {
-      max-width: 100%;
-      max-height: 400px;
-    }
-  }
+  min-height: 100vh;
   .box-two {
-    text-align: center;
-
-    h4 {
-      max-width: 400px;
-      margin: 0 auto;
-      padding-top: 2rem;
-    }
+    margin: 2rem;
   }
-
   /* Media query */
   @media (max-width: 920px) {
     padding-top: 8rem;

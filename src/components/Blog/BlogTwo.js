@@ -75,7 +75,7 @@ const Wrapper = styled.article`
     overflow: hidden;
     img {
       max-width: 100%;
-      max-height: 400px;
+      max-height: 300px;
     }
   }
   .text {

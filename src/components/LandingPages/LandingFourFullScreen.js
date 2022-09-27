@@ -83,14 +83,6 @@ const Wrapper = styled.div`
   }
   article {
     position: relative;
-    :hover {
-      .styling {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        transition: 2sec ease-in-out all;
-      }
-    }
   }
   .layout-two {
     display: grid;

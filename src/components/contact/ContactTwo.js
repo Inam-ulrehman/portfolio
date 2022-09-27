@@ -32,6 +32,7 @@ const ContactTwo = () => {
   }
   return (
     <div>
+      <h3 className='title'>Contact Form</h3>
       <form onSubmit={handleSubmit} className='form'>
         <Logo />
         <div>

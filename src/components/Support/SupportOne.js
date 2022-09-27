@@ -1,10 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import InamCard from '../Card/InamCard'
-
-const url =
-  'https://res.cloudinary.com/inam6530/image/upload/v1658513768/Blue_Customer_Support_Online_Service_Illustration_Instagram_Post.png_wvzfa4.png'
 
 const BlogOne = () => {
   return (

@@ -37,7 +37,7 @@ const ContactTwo = () => {
         <div>
           {/* name input */}
           <label htmlFor='name' className='form-label'>
-            name
+            Full Name
           </label>
           <input
             className='form-input'
@@ -49,7 +49,7 @@ const ContactTwo = () => {
           />
           {/* email input */}
           <label htmlFor='email' className='form-label'>
-            email
+            Email
           </label>
           <input
             className='form-input'
@@ -61,7 +61,7 @@ const ContactTwo = () => {
           />
           {/* phone input */}
           <label htmlFor='phone' className='form-label'>
-            phone
+            Contact Number
           </label>
           <input
             className='form-input'
@@ -73,7 +73,7 @@ const ContactTwo = () => {
           />
           {/* Comment input */}
           <label htmlFor='comments' className='form-label'>
-            Comments
+            Message
           </label>
           <textarea
             className='form-input'

@@ -10,7 +10,7 @@ const SaniaCard = () => {
   return (
     <Wrapper>
       <div className='cart'>
-        <h5>Product &amp; Sale's Manager</h5>
+        <h5>Product &amp; Sales Manager</h5>
         <img src={inam} alt='' />
         <p>
           Name: <span>Sania ul Rehman</span>

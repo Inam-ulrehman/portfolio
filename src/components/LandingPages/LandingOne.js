@@ -3,23 +3,10 @@ import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 const image =
   'https://res.cloudinary.com/inam6530/image/upload/v1658168313/Portfolio/20210803-094930-responsive-devices-vincenzos_beq2vk.png'
-const video =
-  'https://res.cloudinary.com/inam6530/video/upload/v1658332184/Portfolio/banner.mp4'
+
 const LandingOne = () => {
   return (
     <>
-      <WrapperBanner className='App'>
-        <div className='video'>
-          <video
-            autoPlay
-            loop
-            muted
-            src={video}
-            width='100%'
-            height='100%'
-          ></video>
-        </div>
-      </WrapperBanner>
       <Wrapper>
         <div className='body-text'>
           <h3 className='heading-title'>We provide</h3>
@@ -35,13 +22,9 @@ const LandingOne = () => {
     </>
   )
 }
-const WrapperBanner = styled.div`
-  @media (max-width: 920px) {
-    display: none;
-  }
-`
 
 const Wrapper = styled.div`
+  min-height: 100vh;
   .body-text {
     text-align: center;
     .heading-title {

@@ -45,7 +45,8 @@ const LandingFive = () => {
               <h4>Email Newsletters</h4>
               <p>
                 To help push the word out about your business and make people
-                aware of deals, membership sign-up incentives.
+                aware of deals, membership sign-up incentives very helpful and
+                powerful tool.
               </p>
             </div>
           </Link>
@@ -60,6 +61,7 @@ const LandingFive = () => {
   )
 }
 const Wrapper = styled.article`
+  padding: 1rem;
   .heading-box {
     h1 {
       color: var(--black);

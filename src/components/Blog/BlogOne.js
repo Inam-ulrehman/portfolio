@@ -40,7 +40,7 @@ const BlogOne = () => {
           <p>
             Starting an E-commerce website doesn’t have to be challenging, but
             it does require planning, clear objectives, and an understanding of
-            consumer psychology. REM’s WebWiz@rd offers a robust E-commerce
+            consumer psychology. Inam Web Solutions offers a robust E-commerce
             platform with a suite of tools and shipping options to help get your
             online store up and running correctly from the start.
           </p>

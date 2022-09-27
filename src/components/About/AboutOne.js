@@ -1,14 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 import Footer from '../Footer/Footer'
-import facebook from '../../images/facebook.svg'
-import instagram from '../../images/instagram.svg'
-import linkedin from '../../images/linkedin.svg'
 import url from '../../images/Inspiration.svg'
-import github from '../../images/github.svg'
-
-const inam =
-  'https://res.cloudinary.com/inam6530/image/upload/v1658341599/inam_gmuuw3.png'
+import InamCard from '../Card/InamCard'
+import SaniaCard from '../Card/SaniaCard'
+import ShubhamCard from '../Card/ShubhamCard'
 
 const BlogOne = () => {
   return (
@@ -44,59 +40,13 @@ const BlogOne = () => {
             and above all successful web design and marketing strategies to
             every project.
           </p>
-          <p>
-            Our team embodies our guiding principles in everything we do and we
-            constantly find new ways to put our business website customers ahead
-            of their competition.
-          </p>
-        </div>
-        <div className='cart'>
-          <h3>Web Developer</h3>
-          <img src={inam} alt='' />
-          <p>
-            Name: <span>Inam ul Rehman</span>
-          </p>
-          <p>
-            Phone: <span>4165606790</span>
-          </p>
-          <div className='title-underline' style={{ marginTop: '1rem' }}></div>
-          {/* Social icons in cart */}
-          <div className='social-icons'>
-            <h4 className='title'>SOCIAL MEDIA</h4>
-            <ul>
-              <li>
-                <a href='https://facebook.com' target='_blank' rel='noreferrer'>
-                  <img className='icon' src={facebook} alt='' />
-                </a>
-              </li>
-              <li>
-                <a
-                  href='https://instagram.com'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <img className='icon' src={instagram} alt='' />
-                </a>
-              </li>
-              <li>
-                <a href='https://linkedin.com' target='_blank' rel='noreferrer'>
-                  <img className='icon' src={linkedin} alt='' />
-                </a>
-              </li>
-              <li>
-                <a
-                  href='https://github.com/Inam-ulrehman'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <img className='icon' src={github} alt='' />
-                </a>
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
-
+      <div className='cards-holder'>
+        <InamCard />
+        <SaniaCard />
+        <ShubhamCard />
+      </div>
       <hr />
       <Footer />
     </Wrapper>
@@ -104,6 +54,7 @@ const BlogOne = () => {
 }
 
 const Wrapper = styled.section`
+  padding: 1rem;
   .img-holder {
     height: auto;
     overflow: hidden;
@@ -113,40 +64,15 @@ const Wrapper = styled.section`
   }
   .box-two {
     text-align: center;
+    display: grid;
+    place-content: center;
 
     h4 {
       max-width: 400px;
       margin: 0 auto;
     }
   }
-  .cart {
-    margin: 1rem auto;
-    /* border: 2px solid var(--black); */
-    max-width: 300px;
-    box-shadow: var(--shadow-2);
-    transition: var(--transition);
-    p {
-      margin-top: 0px;
-      margin-bottom: 0px;
-    }
-    :hover {
-      box-shadow: var(--shadow-4);
-      span {
-        color: var(--primary-5);
-      }
-      cursor: pointer;
-    }
-    h3 {
-      color: var(--primary-5);
-    }
-    img {
-      max-width: 150px;
-      border-radius: 15px 50px;
-    }
-    span {
-      color: var(--grey-5);
-    }
-  }
+
   /* Media query */
   @media (max-width: 920px) {
     padding-top: 8rem;
@@ -159,31 +85,12 @@ const Wrapper = styled.section`
       display: grid;
       grid-template-columns: 400px auto;
     }
-    .box-two {
+  }
+  @media (min-width: 820px) {
+    .cards-holder {
       display: grid;
-      grid-template-columns: 1fr 280px;
-    }
-  }
-  .icon {
-    width: 30px;
-  }
-  .social-icons {
-    .title {
-      color: var(--black);
-    }
-    width: 210px;
-    margin: 0 auto;
-    img {
-      max-width: 150px;
-      border-radius: 0px;
-    }
-
-    ul {
-      a {
-      }
-      display: flex;
-      gap: 1rem;
-      justify-content: space-between;
+      grid-template-columns: 1fr 1fr 1fr;
+      justify-content: center;
     }
   }
 `

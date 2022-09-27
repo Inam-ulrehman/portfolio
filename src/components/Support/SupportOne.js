@@ -13,18 +13,10 @@ const BlogOne = () => {
       >
         Scroll up
       </button>
-      <div className='box'>
-        <div className='box-1 hide'></div>
-        <div className='box-2'>
-          <h1 className='box-1-text'>Business Website Support</h1>
-        </div>
-      </div>
+
       <div className='box-two'>
         <div>
-          <h4>
-            A business web page design is only as good as the support that backs
-            it up.
-          </h4>
+          <h1>A business web page design.</h1>
           <p>
             Your team knows your design inside and out. They work with you from
             the beginning, helping you during the design process and training
@@ -42,6 +34,8 @@ const BlogOne = () => {
 
 const Wrapper = styled.section`
   min-height: 100vh;
+  display: grid;
+  align-items: center;
   .box-two {
     margin: 2rem;
   }

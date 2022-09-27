@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import Footer from '../Footer/Footer'
 import InamCard from '../Card/InamCard'
 import SaniaCard from '../Card/SaniaCard'
 import ShubhamCard from '../Card/ShubhamCard'

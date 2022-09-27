@@ -62,6 +62,7 @@ const LandingFourFullScreen = () => {
   )
 }
 const Wrapper = styled.div`
+  padding: 1rem;
   @media (max-width: 920px) {
     display: none;
   }

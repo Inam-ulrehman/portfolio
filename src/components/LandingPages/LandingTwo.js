@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { FiChevronRight, FiChevronLeft } from 'react-icons/fi'
+
 import { Link } from 'react-router-dom'
 import { landingPageTwo } from '../../utils/data'
 import styled from 'styled-components'
@@ -57,12 +57,6 @@ function LandingTwo() {
             </article>
           )
         })}
-        <button className='prev' onClick={() => setIndex(index - 1)}>
-          <FiChevronLeft />
-        </button>
-        <button className='next' onClick={() => setIndex(index + 1)}>
-          <FiChevronRight />
-        </button>
       </div>
     </Wrapper>
   )
@@ -98,7 +92,6 @@ const Wrapper = styled.section`
     font-size: 1rem;
     border-radius: var(--radius);
     cursor: pointer;
-    transition: var(--transition);
   }
 
   .prev {

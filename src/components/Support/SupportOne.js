@@ -1,11 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
+import InamCard from '../Card/InamCard'
 
 const url =
   'https://res.cloudinary.com/inam6530/image/upload/v1658513768/Blue_Customer_Support_Online_Service_Illustration_Instagram_Post.png_wvzfa4.png'
-const inam =
-  'https://res.cloudinary.com/inam6530/image/upload/v1658341599/inam_gmuuw3.png'
 
 const BlogOne = () => {
   return (
@@ -48,16 +47,7 @@ const BlogOne = () => {
             questions.
           </p>
         </div>
-        <Link to='/about'>
-          <div className='cart'>
-            <h3>programmer</h3>
-            <img src={inam} alt='' />
-            <p>
-              Name: <span>Inam ul Rehman</span>
-            </p>
-            <div className='title-underline'></div>
-          </div>
-        </Link>
+        <InamCard />
       </div>
 
       <hr />
@@ -91,30 +81,7 @@ const Wrapper = styled.section`
       padding-top: 2rem;
     }
   }
-  .cart {
-    margin: 1rem auto;
-    /* border: 2px solid var(--black); */
-    max-width: 300px;
-    box-shadow: var(--shadow-2);
-    transition: var(--transition);
-    :hover {
-      box-shadow: var(--shadow-4);
-      span {
-        color: var(--primary-5);
-      }
-      cursor: pointer;
-    }
-    h3 {
-      color: var(--primary-5);
-    }
-    img {
-      max-width: 150px;
-      border-radius: 15px 50px;
-    }
-    span {
-      color: var(--grey-5);
-    }
-  }
+
   /* Media query */
   @media (max-width: 920px) {
     padding-top: 8rem;

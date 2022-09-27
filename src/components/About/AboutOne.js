@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import Footer from '../Footer/Footer'
-import url from '../../images/Inspiration.svg'
 import InamCard from '../Card/InamCard'
 import SaniaCard from '../Card/SaniaCard'
 import ShubhamCard from '../Card/ShubhamCard'
@@ -9,27 +8,6 @@ import ShubhamCard from '../Card/ShubhamCard'
 const BlogOne = () => {
   return (
     <Wrapper>
-      <button
-        className='btn'
-        type='button'
-        style={{ position: 'fixed', bottom: '1rem', right: '1.5rem' }}
-        onClick={() => window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })}
-      >
-        Scroll up
-      </button>
-      <div className='box'>
-        <div className='box-1 hide'></div>
-        <div className='box-2'>
-          <h1 className='box-1-text'>A Web Design Family</h1>
-          <h5>
-            We put more experts behind your success than any other web design
-            company.
-          </h5>
-        </div>
-      </div>
-      <div className='img-holder'>
-        <img src={url} alt='' />
-      </div>
       <div className='box-two'>
         <div>
           <h3>Meet Our Team</h3>
@@ -47,21 +25,14 @@ const BlogOne = () => {
         <SaniaCard />
         <ShubhamCard />
       </div>
-      <hr />
-      <Footer />
     </Wrapper>
   )
 }
 
 const Wrapper = styled.section`
   padding: 1rem;
-  .img-holder {
-    height: auto;
-    overflow: hidden;
-    img {
-      width: 100%;
-    }
-  }
+  min-height: 100vh;
+
   .box-two {
     text-align: center;
     display: grid;

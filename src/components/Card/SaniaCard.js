@@ -21,7 +21,6 @@ const SaniaCard = () => {
         <div className='title-underline' style={{ marginTop: '1rem' }}></div>
         {/* Social icons in cart */}
         <div className='social-icons'>
-          <h4 className='title'>SOCIAL MEDIA</h4>
           <ul>
             <li>
               <a href='https://facebook.com' target='_blank' rel='noreferrer'>

@@ -1,5 +1,6 @@
 import { React, useEffect } from 'react'
 import AboutOne from '../components/About/AboutOne'
+import Footer from '../components/Footer/Footer'
 
 const About = () => {
   useEffect(() => {
@@ -8,6 +9,7 @@ const About = () => {
   return (
     <div>
       <AboutOne />
+      <Footer />
     </div>
   )
 }

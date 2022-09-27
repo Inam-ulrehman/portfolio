@@ -44,6 +44,7 @@ const MyWork = () => {
   )
 }
 const Wrapper = styled.div`
+  min-height: 100vh;
   span {
     color: var(--primary-5);
   }

@@ -7,13 +7,12 @@ const LandingTwoFullScreen = () => {
   return (
     <Wrapper>
       {landingPageTwo.map((person) => {
-        const { id, title, titleTwo, paragraph, path } = person
+        const { id, titleTwo, paragraph, path } = person
         return (
           <article key={id}>
             <Link className='container-box' to={path}>
               <div className='design'></div>
-              <p>{title}</p>
-              <h2>{titleTwo}</h2>
+              <h4>{titleTwo}</h4>
               <p className='text'>{paragraph}</p>
             </Link>
           </article>
@@ -46,7 +45,7 @@ const Wrapper = styled.article`
       .design {
         width: 210px;
       }
-      h2 {
+      h4 {
         color: var(--primary-5);
       }
     }

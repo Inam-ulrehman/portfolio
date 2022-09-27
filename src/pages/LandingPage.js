@@ -2,13 +2,13 @@ import { React, useEffect } from 'react'
 import styled from 'styled-components'
 import Footer from '../components/Footer/Footer'
 import GoogleMaps from '../components/GoogleMaps'
-import LandingFive from '../components/LandingPages/LandingFive'
-import LandingFour from '../components/LandingPages/LandingFour'
-import LandingFourFullScreen from '../components/LandingPages/LandingFourFullScreen'
-import LandingOne from '../components/LandingPages/LandingOne'
-import LandingThree from '../components/LandingPages/LandingThree'
-import LandingTwo from '../components/LandingPages/LandingTwo'
-import LandingTwoFullScreen from '../components/LandingPages/LandingTwoFullScreen'
+import {
+  LandingOne,
+  LandingTwo,
+  LandingTwoFullScreen,
+  LandingThree,
+  LandingFive,
+} from '../components/LandingPages'
 
 const LandingPage = () => {
   useEffect(() => {
@@ -20,8 +20,6 @@ const LandingPage = () => {
       <LandingTwo />
       <LandingTwoFullScreen />
       <LandingThree />
-      <LandingFour />
-      <LandingFourFullScreen />
       <LandingFive />
       <GoogleMaps />
       <Footer />

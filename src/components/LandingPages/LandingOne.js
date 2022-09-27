@@ -10,7 +10,8 @@ const LandingOne = () => {
       <Wrapper>
         <div className='body-text'>
           <h3 className='heading-title'>We provide</h3>
-          <h1 className='body-text'>Business Web Design &#38; Development </h1>
+          <div className='title-underline'></div>
+          <h4 className='body-text'>Business Web Design &#38; Development </h4>
           <Link to='/services' className='btn btn-one'>
             My Services
           </Link>
@@ -25,6 +26,8 @@ const LandingOne = () => {
 
 const Wrapper = styled.div`
   min-height: 100vh;
+  place-content: center;
+
   .body-text {
     text-align: center;
     .heading-title {

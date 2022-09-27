@@ -14,10 +14,10 @@ const ShubhamCard = () => {
         <h5>Marketing Manager</h5>
         <img src={inam} alt='' />
         <p>
-          Name: <span>Shubham Angra</span>
+          <span>SHUBHAM</span>
         </p>
         <p>
-          Phone: <span>5195025552</span>
+          <span>5195025552</span>
         </p>
         <div className='title-underline' style={{ marginTop: '1rem' }}></div>
         {/* Social icons in cart */}

@@ -33,9 +33,9 @@ const ContactTwo = () => {
   return (
     <Wrapper>
       <form onSubmit={handleSubmit} className='form'>
-        <h3 className='title'>Contact us</h3>
+        <h3 className='title'>Contact Us</h3>
         <div className='title-underline'></div>
-        <p className='title'>A team member will reach out to you soon.</p>
+
         <div>
           {/* name input */}
           <label htmlFor='name' className='form-label'>

@@ -1,7 +1,8 @@
 import React from 'react'
 
 import styled from 'styled-components'
-
+const url =
+  'https://firebasestorage.googleapis.com/v0/b/burger-queen-6b0d2.appspot.com/o/computer.png?alt=media&token=0210f342-e313-4770-a850-a5be195f710d'
 const MyWork = () => {
   return (
     <Wrapper>
@@ -20,10 +21,7 @@ const MyWork = () => {
           >
             <p className='hero-text'>launch site</p>
 
-            <img
-              src='https://firebasestorage.googleapis.com/v0/b/burger-queen-6b0d2.appspot.com/o/computer.png?alt=media&token=0210f342-e313-4770-a850-a5be195f710d'
-              alt=''
-            />
+            <img src={url} alt='' />
           </a>
         </div>
         <div className='img-holder'>

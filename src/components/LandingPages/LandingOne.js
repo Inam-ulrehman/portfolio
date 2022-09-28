@@ -27,6 +27,8 @@ const LandingOne = () => {
 const Wrapper = styled.div`
   min-height: 100vh;
   place-content: center;
+  display: grid;
+  align-content: space-evenly;
 
   .body-text {
     text-align: center;
@@ -53,13 +55,12 @@ const Wrapper = styled.div`
     }
   }
   @media (min-width: 920px) {
-    display: grid;
     grid-template-columns: 1fr 1fr;
     .image-box {
       img {
         max-width: 600px;
         max-height: 600px;
-        margin-top: 2rem;
+        /* margin-top: 2rem; */
       }
     }
     .body-text {

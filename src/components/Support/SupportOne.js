@@ -16,7 +16,7 @@ const BlogOne = () => {
 
       <div className='box-two'>
         <div>
-          <h1>A business web page design.</h1>
+          <h1>A business web page design</h1>
           <p>
             Your team knows your design inside and out. They work with you from
             the beginning, helping you during the design process and training
@@ -35,13 +35,15 @@ const BlogOne = () => {
 const Wrapper = styled.section`
   min-height: 100vh;
   display: grid;
-  align-items: center;
+
   .box-two {
-    margin: 2rem;
+    margin: 1rem;
+    margin-top: 2rem;
   }
+  align-items: center;
+  justify-content: space-around;
   /* Media query */
   @media (max-width: 920px) {
-    padding-top: 8rem;
     .hide {
       display: none;
     }

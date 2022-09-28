@@ -1,11 +1,11 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { toast } from 'react-toastify'
+import styled from 'styled-components'
 import {
   contactThunk,
   getContactData,
 } from '../../features/contact/contactSlice'
-import Logo from '../Logo'
 
 const ContactTwo = () => {
   const { contact } = useSelector((state) => state)
@@ -31,10 +31,11 @@ const ContactTwo = () => {
     dispatch(getContactData({ name, value }))
   }
   return (
-    <div>
-      <h3 className='title'>Contact Form</h3>
+    <Wrapper>
       <form onSubmit={handleSubmit} className='form'>
-        <Logo />
+        <h3 className='title'>Contact us</h3>
+        <div className='title-underline'></div>
+        <p className='title'>A team member will reach out to you soon.</p>
         <div>
           {/* name input */}
           <label htmlFor='name' className='form-label'>
@@ -91,8 +92,12 @@ const ContactTwo = () => {
           Submit
         </button>
       </form>
-    </div>
+    </Wrapper>
   )
 }
-
+const Wrapper = styled.div`
+  height: 100vh;
+  display: grid;
+  align-items: center;
+`
 export default ContactTwo

@@ -1,7 +1,7 @@
 import { React, useEffect } from 'react'
 import styled from 'styled-components'
 import Footer from '../components/Footer/Footer'
-import GoogleMaps from '../components/GoogleMaps'
+// import GoogleMaps from '../components/GoogleMaps'
 import {
   LandingOne,
   LandingTwo,
@@ -21,7 +21,8 @@ const LandingPage = () => {
       <LandingTwoFullScreen />
       <LandingThree />
       <LandingFive />
-      <GoogleMaps />
+      {/* <GoogleMaps /> */}
+      <hr />
       <Footer />
     </Wrapper>
   )
